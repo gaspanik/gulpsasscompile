@@ -1,0 +1,9 @@
+$hoge: #000;
+
+body {
+	color: $hoge;
+}
+
+h1 {
+	color: lighten($hoge, 69%);
+}
